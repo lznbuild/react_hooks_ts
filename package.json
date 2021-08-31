@@ -21,7 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cr-file": "node create-templates-cli/index.js"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +43,10 @@
     ]
   },
   "devDependencies": {
+    "chalk": "^4.1.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.1.2",
+    "mkdirp": "^0.5.1",
     "react-docgen": "^5.4.0"
   }
 }

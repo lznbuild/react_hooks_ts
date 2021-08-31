@@ -1,0 +1,3 @@
+.{{componentName}}-container {
+  color: blue;
+}

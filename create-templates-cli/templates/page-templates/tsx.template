@@ -1,0 +1,14 @@
+import * as React from 'react';
+import type { FC } from 'react';
+import './{{componentName}}.module.less';
+
+interface {{componentName}}Props { }
+
+export const {{componentName}}Page: FC<{{componentName}}Props> = (props) => {
+
+  return (
+    <div className="{{componentName}}-container">
+      <h1>{{componentName}}-title</h1>
+    </div>
+  );
+}
